@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- Chamada de Configurações-->
+<!-- Bootstrap e CSS -->
+
+<link href="assets/css/bootstrap.css" rel="stylesheet">
+<link href="assets/css/font-awesome.min.css" rel="stylesheet">
+
+<!-- Customização do Template-->
+<link href="assets/css/main.css" rel="stylesheet">
+
+<!-- Custumização Template Manter Curso -->
+<link rel="stylesheet" type="text/css" href="css/style.css">
+
+<title>Gerenciar Aluno</title>
+</head>
+
+<body>
+
+	<!-- Menu -->
+	<div class="navbar navbar-inverse navbar-fixed-top">
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse"
+					data-target=".navbar-collapse">
+					<span class="icon-bar"></span> <span class="icon-bar"></span> <span
+						class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="#">PR<i class="fa fa-circle"></i>JET<i
+					class="fa fa-circle"></i>
+				</a>
+			</div>
+
+			<div class="navbar-collapse collapse">
+				<ul class="nav navbar-nav navbar-right">
+					<li class="active"><a
+						href="http://localhost:8080/ProjetoMSIN/Index.html">HOME</a></li>
+
+					<li class="active"><a href="#">MENU</a>
+						<ul>
+							<li class="active"><a
+								href="http://localhost:8080/ProjetoMSIN/ManterCurso.html">CURSOS</a></li>
+							<li class="active"><a
+								href="http://localhost:8080/ProjetoMSIN/ManterMatricula.html">MATRICULA</a></li>
+							<li class="active"><a href="#">ALUNO</a></li>
+						</ul></li>
+					<li class="active"><a href="#">SOBRE</a></li>
+					<li class="active"><a href="#">LOGOF</a></li>
+					</a>
+					</li>
+				</ul>
+			</div>
+
+		</div>
+	</div>
+	<!-- Fim Menu -->
+
+	<!-- Conteudo -->
+
+	<!--BEGIN #signup-form -->
+	<div id="signup-form">
+
+		<!--BEGIN #subscribe-inner -->
+		<div id="signup-inner">
+
+			<div class="clearfix" id="header">
+
+
+				<center>Gerenciar Aluno</center>
+
+
+			</div>
+			<center>
+				<img id="cadastro_icon" src="./image/cadastro_icon.png" />
+			</center>
+			<form id="informacoes" action="ManterAluno.do" method="post">
+				<center>
+					<p>
+						<label for="RaAluno">RA do Aluno</label> <input type="text"
+							id="Ra" name="Ra" />
+					</p>
+
+					<p>
+					<p>
+
+						<label for="nome">Nome do Aluno</label> <input type="text"
+							id="Nome" name="Nome" />
+					</p>
+
+
+
+					<label for="Endereco">Endereço</label> <input type="text"
+						id="Endereco" name="Endereco" />
+					</p>
+
+
+					<p>
+						<label for="Email">Email</label> <input type="text" id="Email"
+							name="Email" />
+					</p>
+
+					<p>
+						<label for="Telefone">Telefone</label> <input type="number"
+							id="Telefone" name="Telefone" />
+					</p>
+
+					<p>
+						<label for="RG">RG</label> <input type="number" id="RG"
+							name="RG" />
+					</p>
+
+					<p>
+						<label for="CPF">CPF</label> <input type="number" id="CPF"
+							name="CPF" />
+					</p>
+
+
+					<p>
+						<button id="submit" type="submit" name="acao" value="Cadastrar">Cadastrar
+						</button>
+						<button id="submit" type="submit" name="acao" value="Excluir">Excluir</button>
+						<button id="submit" type="submit"name="acao" value="Consultar">Consultar</button>
+						<button id="submit" type="submit"name="acao" value="Sair">Sair</button>
+					</p>
+				</center>
+			</form>
+
+		</div>
+
+	</div>
+	</div>
+
+
+	<!-- Fim Conteudo -->
+
+
+
+
+	<!--  Rodapé -->
+	<div id="f">
+		<div class="container">
+			<div class="row centered"></div>
+		</div>
+	</div>
+	<!-- Fim Rodapé -->
+
+
+</body>
+</html>

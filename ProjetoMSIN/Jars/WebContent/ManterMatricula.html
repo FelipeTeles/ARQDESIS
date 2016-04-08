@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- Chamada de Configurações-->
+<!-- Bootstrap e CSS -->
+
+<link href="assets/css/bootstrap.css" rel="stylesheet">
+<link href="assets/css/font-awesome.min.css" rel="stylesheet">
+
+<!-- Customização do Template-->
+<link href="assets/css/main.css" rel="stylesheet">
+
+<!-- Custumização Template Manter Curso -->
+<link rel="stylesheet" type="text/css" href="css/style.css">
+
+<title>Gerenciar Matricula</title>
+</head>
+
+<body>
+
+	<!-- Menu -->
+	<div class="navbar navbar-inverse navbar-fixed-top">
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse"
+					data-target=".navbar-collapse">
+					<span class="icon-bar"></span> <span class="icon-bar"></span> <span
+						class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="#">PR<i class="fa fa-circle"></i>JET<i
+					class="fa fa-circle"></i>
+				</a>
+			</div>
+
+			<div class="navbar-collapse collapse">
+				<ul class="nav navbar-nav navbar-right">
+					<li class="active"><a
+						href="http://localhost:8080/ProjetoMSIN/Index.html">HOME</a></li>
+
+					<li class="active"><a href="#">MENU</a>
+						<ul>
+							<li class="active"><a href="http://localhost:8080/ProjetoMSIN/ManterCurso.html">CURSOS</a></li>
+							<li class="active"><a
+								href="http://localhost:8080/ProjetoMSIN/ManterMatricula.html">MATRICULA</a></li>
+							<li class="active"><a href="http://localhost:8080/ProjetoMSIN/ManterAluno.html">ALUNO</a></li>
+						</ul></li>
+					<li class="active"><a href="#">SOBRE</a></li>
+				 <li class="active"><a href="#">LOGOF</a></li></a></li>
+				</ul>
+			</div>
+
+		</div>
+	</div>
+	<!-- Fim Menu -->
+
+	<!-- Conteudo -->
+	<!--BEGIN #signup-form -->
+	<div id="signup-form">
+
+		<!--BEGIN #subscribe-inner -->
+		<div id="signup-inner">
+
+			<div class="clearfix" id="header">
+
+
+
+				<center>Gerenciar Matricula</center>
+
+
+			</div>
+			<center>
+				<img id="cadastro_icon" src="./image/cadastro_icon.png" />
+			</center>
+			<form id="informacoes" action="ManterCurso.do" method="post">
+
+				<center>
+					<p>
+
+						<label for="name">Matricula</label> <input type="text" id="Codigo"
+							name="Codigo" />
+					</p>
+					<p>
+						<label for="data">Data de Matricula</label> <input type="text"
+							id="datamat" name="datamatricula" />
+					</p>
+
+					<p>
+
+						<label for="CodigoCurso">Código do Curso</label> <input
+							type="text" id="Codigo" name="CodigodoCurso" />
+					</p>
+
+
+
+					<p>
+						<label for="valor">Valor</label> <input type="number"
+							name="ValordaMatricula" />
+					</p>
+
+					<p>
+						<label for="Ra">Ra do Aluno</label> <input type="text"
+							id="RadoAluno" name="RaAluno" />
+					</p>
+
+					<p>
+						<label for="Statusdematricula">Status de Matricula</label> <select
+							id="StatusMatricula" name="StatusM">
+							<option>Cursando</option>
+							<option>Cancelada</option>
+							<option>Curso Finalizado</option>
+					</p>
+					<p></p>
+					<p>
+						</select> <label for="StatusdePagamento">Status de Pagamento</label> <select
+							id="StatusPagamento" name="StatusP">
+
+							<option>Pago</option>
+							<option>Pendente</option>
+							<option>Não Aceito</option>
+						</select>
+				</center>
+				</p>
+
+			</form>
+
+			<button id="submit" type="submit" name="alterar">Alterar</button>
+			<button id="submit" type="submit" name="cadastrar">Cadastrar</button>
+			<button id="submit" type="submit" name="excluir">Excluir</button>
+			<button id="submit" type="submit" name="consultar">Consultar</button>
+			<button id="submit" type="submit" name="sair">Sair</button>
+		</div>
+
+	</div>
+	</div>
+
+	<!-- Fim Conteudo -->
+
+
+
+	<!--  Rodapé -->
+	<div id="f">
+		<div class="container">
+			<div class="row centered"></div>
+		</div>
+	</div>
+	<!-- Fim Rodapé -->
+
+
+</body>
+</html>
