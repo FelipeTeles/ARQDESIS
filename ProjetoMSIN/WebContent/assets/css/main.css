@@ -1,0 +1,170 @@
+/*Fontes*/
+
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700,900)
+	;
+
+@import
+	url(http://fonts.googleapis.com/css?family=Raleway:400,300,700,900);
+
+/*Geral */
+body {
+	background-color: #2d2d2d;
+	font-family: "Lato";
+	font-weight: 300;
+	font-size: 16px;
+	color: #2d2d2d;
+	-webkit-font-smoothing: antialiased;
+	-webkit-overflow-scrolling: touch;
+	margin-top: 70px;
+}
+
+/* Titulo*/
+h1, h2, h3, h4, h5, h6 {
+	font-family: "Raleway";
+	font-weight: 300;
+	color: #2d2d2d;
+}
+
+/* Paragrafo */
+p {
+	line-height: 28px;
+	margin-bottom: 25px;
+}
+
+.centered {
+	text-align: center;
+}
+
+/* Configuração do Menu*/
+.navbar {
+	font-weight: 800;
+	font-size: 14px;
+	padding-left: 50px;
+}
+
+.navbar-inverse {
+	background: #2d2d2d;
+	border-color: #2d2d2d;
+}
+
+.navbar-inverse .navbar-nav>.active>a {
+	background: #8CB3FF;
+}
+
+.navbar-inverse .navbar-brand {
+	color: #fff;
+	font-weight: bolder;
+	font-size: 22px;
+	letter-spacing: 1px;
+}
+
+.navbar-inverse .navbar-brand i {
+	color: #8CB3FF;
+	font-size: 22px;
+	letter-spacing: 1px;
+}
+
+/* Sub-Menu*/
+.navbar li  ul {
+	position: absolute;
+	top: 32px;
+	left: 0;
+	background-color: #8CB3FF;
+	display: none;
+}
+
+.navbar li:hover ul, .navbar li.over ul {
+	display: block;
+}
+
+.navbar li ul li {
+	border: 0px solid #2d2d2d;
+	display: block;
+	width: 80px;
+}
+
+.navbar li a {
+	color: #fff;
+	text-decoration: none;
+	padding: 5px 10px;
+}
+
+.navbar li a:hover {
+	color: #fff;
+	text-shadow: 0px 0px 5px #2d2d2d;
+}
+
+/*Titulo*/
+.tilt {
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	-ms-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+}
+
+.tilt:hover {
+	-webkit-transform: rotate(-10deg);
+	-moz-transform: rotate(-10deg);
+	-o-transform: rotate(-10deg);
+	-ms-transform: rotate(-10deg);
+	transform: rotate(-10deg);
+}
+
+/* Plano de Fundo */
+#headerwrap {
+	background: url(../img/header-bg.jpg) no-repeat center top;
+	margin-top: -10px;
+	padding-top: 20px;
+	text-align: center;
+	background-attachment: relative;
+	background-position: center center;
+	min-height: 300px;
+	width: 100%;
+	-webkit-background-size: 100%;
+	-moz-background-size: 100%;
+	-o-background-size: 100%;
+	background-size: 100%;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+#headerwrap h1 {
+	margin-top: 100px;
+	color: white;
+	font-size: 70px;
+	font-weight: 300;
+	letter-spacing: 3px;
+}
+
+#headerwrap h2 {
+	color: white;
+	font-size: 40px;
+	font-weight: 700;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+}
+
+/* Rodapé */
+#f {
+	background: #2d2d2d;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+/*Configuração de Tamanho*/
+.pricing-option .pricing-signup:hover {
+	background: #ff7878;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: arial, helvetica, sans-serif;
+	font-size: 12px;
+}
