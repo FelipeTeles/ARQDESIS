@@ -35,7 +35,6 @@ public class CTRL_Inicialização extends HttpServlet {
 	 */
 	protected void doPost(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {
-<<<<<<< HEAD
 	
 		String pNome = request.getParameter("Nome");
 		String pSenha = request.getParameter("Senha");
@@ -48,34 +47,14 @@ public class CTRL_Inicialização extends HttpServlet {
 
 		} catch (NumberFormatException e) {
 			Senha = 0;
-=======
-		String pCodigo = request.getParameter("Codigo");
-		String pNome = request.getParameter("Nome");
-		String pacao = request.getParameter("acao");
-
-		int Codigo;
-
-		try {
-			Codigo = Integer.parseInt(pCodigo);
-
-		} catch (NumberFormatException e) {
-			Codigo = 0;
->>>>>>> origin/master
 
 			e.printStackTrace();
 		}
 
-<<<<<<< HEAD
 		MODEL_Atendente MODELAtendente = new MODEL_Atendente(pNome,Senha);
 
 		if (pacao.equals("Entrar")) {
 			MODELAtendente.Consultar_Atendente(pNome,Senha);
-=======
-		MODEL_Atendente MODELAtendente = new MODEL_Atendente(Codigo, pNome);
-
-		if (pacao.equals("Entrar")) {
-			MODELAtendente.Consultar_Atendente(Codigo);
->>>>>>> origin/master
 
 		}
 
