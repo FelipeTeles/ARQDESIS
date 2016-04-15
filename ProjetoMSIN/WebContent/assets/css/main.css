@@ -1,12 +1,19 @@
+<<<<<<< HEAD
 /*Fontes*/
 
+=======
+>>>>>>> origin/master
 @import url(http://fonts.googleapis.com/css?family=Lato:300,400,700,900)
 	;
 
 @import
 	url(http://fonts.googleapis.com/css?family=Raleway:400,300,700,900);
 
+<<<<<<< HEAD
 /*Geral */
+=======
+/* OVERALL ASPECT */
+>>>>>>> origin/master
 body {
 	background-color: #2d2d2d;
 	font-family: "Lato";
@@ -25,7 +32,11 @@ h1, h2, h3, h4, h5, h6 {
 	color: #2d2d2d;
 }
 
+<<<<<<< HEAD
 /* Paragrafo */
+=======
+/* Paragraph & Typographic */
+>>>>>>> origin/master
 p {
 	line-height: 28px;
 	margin-bottom: 25px;
@@ -147,7 +158,11 @@ p {
 	text-transform: uppercase;
 }
 
+<<<<<<< HEAD
 /* Rodapé */
+=======
+/* Footer Wrap */
+>>>>>>> origin/master
 #f {
 	background: #2d2d2d;
 	padding-top: 30px;
